@@ -2,9 +2,9 @@
 
 import type { NextPage } from 'next'
 import { useState } from 'react';
-import { BaseLayout } from '../../components'
-import { Switch } from '@headlessui/react'
-import Link from 'next/link'
+import { BaseLayout } from '@ui';
+import { Switch } from '@headlessui/react';
+import Link from 'next/link';
 
 const ATTRIBUTES = ["Dana", "Background", "Special"]
 
