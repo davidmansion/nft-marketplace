@@ -1,3 +1,4 @@
+
 module.exports = {
   contracts_build_directory: "./public/contracts",
   networks: {
