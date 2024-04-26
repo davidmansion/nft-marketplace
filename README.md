@@ -5,6 +5,7 @@ Marketplace has dependencies on multiple technologies.
 
 Pinata - store images, and NFT metadata
 Ganache - private Blockchain, to run application localy
+
 To run the app
 run npm install to install dependencies
 
@@ -18,8 +19,11 @@ SECRET_COOKIE_PASSWORD={your custom at least 32 characters long password!}
 
 PINATA_API_KEY={your api key from pinata}
 PINATA_SECRET_API_KEY={your api secret key from pinata}
+
 (your api pinata key has to allow pinFileToIPFS and pinJSONToIPFS rules)
+
 Then migrate a contract to Ganache, contract can be found in the contracts folder. It's called NftMarket.sol
+
 To migrate the contract run truffle migrate in the terminal while Ganache network is setup and running.
 
 Do not forget to link trufle-config.js with Ganache, just go to config and click Add Project
